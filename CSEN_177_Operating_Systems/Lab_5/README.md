@@ -13,17 +13,18 @@ coordinating access to shared resources.
 - Signal handling and resource cleanup
 
 ## File Overview
-- threadSync_base_modified.c:
-  Modified version of an instructor-provided thread synchronization example, demonstrating mutual exclusion using synchronization primitives.
-
-- step2_mutex_lock.c:
-  Implements synchronization using mutex locks to protect a critical section.
+- step2_threadSync_modified.c:
+  Modified version of an instructor-provided thread synchronization example,
+  extended to correctly protect critical sections using synchronization
+  primitives.
 
 - step3_semaphore_producer_consumer.c:
-  Producer–consumer implementation using semaphores for coordination.
+  Implements the producer–consumer problem using semaphores for coordination
+  between threads.
 
 - step4_condition_variables.c:
-  Producer–consumer implementation using condition variables to avoid busy waiting and improve efficiency.
+  Implements the producer–consumer problem using condition variables to improve
+  efficiency and avoid busy waiting.
 
 ## Notes
 This lab was completed using instructor-provided instructions and starter code. The uploaded source files reflect my own implementations, modifications, and extensions. Assignment documents and other proprietary materials are not included.
