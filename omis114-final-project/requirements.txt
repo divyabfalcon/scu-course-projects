@@ -1,0 +1,7 @@
+﻿This file lists the required Python packages for the Capstone Project analysis.
+Pandas: pip install pandas
+Numpy: pip install numpy
+Scipy: pip install scipy
+Sklearn: pip install scikit-learn
+Matplotlib: pip install matplotlib
+Seaborn: pip install seaborn
