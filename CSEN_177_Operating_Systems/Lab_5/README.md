@@ -13,16 +13,16 @@ coordinating access to shared resources.
 - Signal handling and resource cleanup
 
 ## File Overview
-- step2_threadSync_modified.c:
+- divyabengali_step2_threadSync_modified.c:
   Modified version of an instructor-provided thread synchronization example,
   extended to correctly protect critical sections using synchronization
   primitives.
 
-- step3_semaphore_producer_consumer.c:
+- divyabengali_step3_semaphore_producer_consumer.c:
   Implements the producer–consumer problem using semaphores for coordination
   between threads.
 
-- step4_condition_variables.c:
+- divyabengali_step4_condition_variables.c:
   Implements the producer–consumer problem using condition variables to improve
   efficiency and avoid busy waiting.
 
